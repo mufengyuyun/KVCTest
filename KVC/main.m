@@ -52,7 +52,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%@",[model2 valueForKey:@"name"]);
         
         
-        
+        NSLog(@"caikanglin");
 
     }
     return 0;
