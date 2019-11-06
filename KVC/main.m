@@ -38,6 +38,8 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%@",[model valueForKey:@"name"]);        
         NSLog(@"%@",[model valueForKeyPath:@"shopModel.shopName"]);
         
+        
+        
         ModelEntity *model2 = [ModelEntity new];
         
         [model2 setValue:@"出来" forKey:@"_name"];
